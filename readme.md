@@ -1,0 +1,2 @@
+[Download keyremap4macbook](https://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-8.3.0.dmg)
+[Download PCKeyboardHack](https://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-9.0.0.dmg)
