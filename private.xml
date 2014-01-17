@@ -1,28 +1,153 @@
 <?xml version="1.0"?>
 <root>
 
+  <appdef>
+    <appname>RUBYMINE</appname>
+    <equal>com.jetbrains.rubymine</equal>
+  </appdef>
+
+  <appdef>
+    <appname>SUBLIMETEXT</appname>
+    <equal>com.sublimetext.2</equal>
+  </appdef>
+
   <devicevendordef>
-    <vendorname>APPLE_COMPUTER</vendorname>
+    <vendorname>SEJIN</vendorname>
+    <vendorid>0x0510</vendorid>
+  </devicevendordef>
+
+  <devicevendordef>
+    <vendorname>APPLE</vendorname>
     <vendorid>0x05ac</vendorid>
   </devicevendordef>
 
   <deviceproductdef>
     <productname>DUSTIN_MACBOOK_INTERNAL_KEYBOARD</productname>
-    <productid>0x0236</productid>
+    <productid>0x0262</productid>
   </deviceproductdef>
 
   <deviceproductdef>
-    <productname>Jeff_EXINTERNAL_KEYBOARD</productname>
+    <productname>SEJIN</productname>
+    <productid>0x0032</productid>
+  </deviceproductdef>
+
+  <deviceproductdef>
+    <productname>MICROSOFTCOMFORT</productname>
+    <productid>0x07b2</productid>
+  </deviceproductdef>
+
+  <devicevendordef>
+    <vendorname>MICROSOFT</vendorname>
+    <vendorid>0x045e</vendorid>
+  </devicevendordef>
+
+  <deviceproductdef>
+    <productname>APPLE_EXINTERNAL_KEYBOARD</productname>
     <productid>0x0255</productid>
   </deviceproductdef>
 
+  <devicelocationdef>
+    <locationname>DUSTIN_EXTERNAL</locationname>
+    <locationid>0x43b77ee4</locationid>
+  </devicelocationdef>
+<item>
+      <name>1234567890-\; to !@#$%^&amp;*()_|: / Shift+1234567890-\; to 1234567890-\;</name>
+      <device_only>
+        DeviceVendor::MICROSOFT,
+        DeviceProduct::MICROSOFTCOMFORT,
+        DeviceVendor::APPLE,
+        DeviceProduct::DUSTIN_MACBOOK_INTERNAL_KEYBOARD,
+        DeviceVendor::APPLE,
+        DeviceProduct::APPLE_EXINTERNAL_KEYBOARD,
+        DeviceLocation::DUSTIN_EXTERNAL
+      </device_only>
+      <identifier>remap.swap_number_and_symbol_custom</identifier>
+      <only>RUBYMINE, SUBLIMETEXT</only>
+      <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::NONE, KeyCode::KEY_1, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::NONE, KeyCode::KEY_2, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::NONE, KeyCode::KEY_3, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_4, ModifierFlag::NONE, KeyCode::KEY_4, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_5, ModifierFlag::NONE, KeyCode::KEY_5, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_6, ModifierFlag::NONE, KeyCode::KEY_6, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_7, ModifierFlag::NONE, KeyCode::KEY_7, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_8, ModifierFlag::NONE, KeyCode::KEY_8, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_9, ModifierFlag::NONE, KeyCode::KEY_9, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_0, ModifierFlag::NONE, KeyCode::KEY_0, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::NONE, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::NONE, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_1, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_1,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_2, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_2,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_3, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_3,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_4, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_4,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_5, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_5,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_6, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_6,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_7, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_7,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_8, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_8,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_9, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_9,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::KEY_0, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::KEY_0,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::MINUS, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::MINUS,
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::BACKSLASH, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::BACKSLASH,
+      </autogen>
+    </item>
   <item>
     <name>Change QWERTY to Colemak layout</name>
     <identifier>remap.qwerty2colemak_custom</identifier>
     <include path="/Applications/KeyRemap4MacBook.app/Contents/Resources/include/checkbox/keyboard_layouts/common/keypad_redefinition.xml" />
     <device_only>
-        DeviceVendor::APPLE_COMPUTER,
-        DeviceProduct::DUSTIN_MACBOOK_INTERNAL_KEYBOARD
+        DeviceVendor::MICROSOFT,
+        DeviceProduct::MICROSOFTCOMFORT,
+        DeviceVendor::APPLE,
+        DeviceProduct::DUSTIN_MACBOOK_INTERNAL_KEYBOARD,
+        DeviceVendor::APPLE,
+        DeviceProduct::APPLE_EXINTERNAL_KEYBOARD,
+        DeviceLocation::DUSTIN_EXTERNAL
       </device_only>
     <autogen>__KeyToKey__ KeyCode::E, KeyCode::F</autogen>
     <autogen>__KeyToKey__ KeyCode::R, KeyCode::P</autogen>
@@ -51,8 +176,10 @@
       <appendix>Overlay 1234567890-= onto the top row QWFPGJLUY;[]</appendix>
       <appendix>Overlay  arstdhneio' onto the home row !@#$%&amp;*()|</appendix>
       <appendix>Overlay  zxcvbkm,./ onto the home row []-_=+|{}</appendix>
-      <device_only>
-        DeviceVendor::APPLE_COMPUTER,
+     <device_only>
+        DeviceVendor::MICROSOFT,
+        DeviceProduct::MICROSOFTCOMFORT,
+        DeviceVendor::APPLE,
         DeviceProduct::DUSTIN_MACBOOK_INTERNAL_KEYBOARD
       </device_only>
       <identifier vk_config="true">notsave.private_symobls_to_main</identifier>
@@ -93,10 +220,16 @@
       <autogen>__KeyToKey__ KeyCode:::RawValue::0x2f,  KeyCode::RawValue::0x1e, ModifierFlag::SHIFT_L</autogen>
       <autogen>__KeyToKey__ KeyCode:::RawValue::0x2c,  KeyCode::RawValue::0x2a</autogen>
     </item>
+
     <item>
       <name>Hold Space+Key to active</name>
       <identifier>private.remap.space_to_homerow_numbers</identifier>
       <autogen>__KeyOverlaidModifier__ KeyCode::SPACE, KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_private_symobls_to_main, KeyCode::SPACE</autogen>
+    </item>
+    <item>
+      <name>Hold Right Command+Key to active</name>
+      <identifier>private.remap.scmg_to_homerow_numbers</identifier>
+      <autogen>__KeyToKey__ ModifierFlag::COMMAND_R, KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_private_symobls_to_main</autogen>
     </item>
     <item>
       <name>Hold CMD_L+CMD_R+Key to active</name>
@@ -113,6 +246,15 @@
     <name>Option-R to command key</name>
     <identifier>private.remap.swap_Option-R_to_command_key</identifier>
     <autogen>__KeyToKey__ KeyCode:::RawValue::0x3d,  KeyCode:::RawValue::0x36</autogen>
+  </item>
+
+  <item>
+    <name>Switch Profile</name>
+    <identifier>private.switch_profile</identifier>
+    <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_KeyRemap4MacBook_Profile0</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_KeyRemap4MacBook_Profile1</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_KeyRemap4MacBook_Profile2</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEY_4, ModifierFlag::OPTION_L |ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_KeyRemap4MacBook_Profile3</autogen>
   </item>
 
 </root>
