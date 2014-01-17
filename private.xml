@@ -47,19 +47,20 @@
   </deviceproductdef>
 
   <devicelocationdef>
+    <locationname>ROVING_EXINTERNAL_KEYBOARD</locationname>
+    <locationid>0x69770080</locationid>
+  </devicelocationdef>
+
+  <devicelocationdef>
     <locationname>DUSTIN_EXTERNAL</locationname>
     <locationid>0x43b77ee4</locationid>
   </devicelocationdef>
 <item>
       <name>1234567890-\; to !@#$%^&amp;*()_|: / Shift+1234567890-\; to 1234567890-\;</name>
       <device_only>
-        DeviceVendor::MICROSOFT,
-        DeviceProduct::MICROSOFTCOMFORT,
-        DeviceVendor::APPLE,
-        DeviceProduct::DUSTIN_MACBOOK_INTERNAL_KEYBOARD,
         DeviceVendor::APPLE,
         DeviceProduct::APPLE_EXINTERNAL_KEYBOARD,
-        DeviceLocation::DUSTIN_EXTERNAL
+        DeviceLocation::ROVING_EXINTERNAL_KEYBOARD
       </device_only>
       <identifier>remap.swap_number_and_symbol_custom</identifier>
       <only>RUBYMINE, SUBLIMETEXT</only>
@@ -141,13 +142,9 @@
     <identifier>remap.qwerty2colemak_custom</identifier>
     <include path="/Applications/KeyRemap4MacBook.app/Contents/Resources/include/checkbox/keyboard_layouts/common/keypad_redefinition.xml" />
     <device_only>
-        DeviceVendor::MICROSOFT,
-        DeviceProduct::MICROSOFTCOMFORT,
-        DeviceVendor::APPLE,
-        DeviceProduct::DUSTIN_MACBOOK_INTERNAL_KEYBOARD,
         DeviceVendor::APPLE,
         DeviceProduct::APPLE_EXINTERNAL_KEYBOARD,
-        DeviceLocation::DUSTIN_EXTERNAL
+        DeviceLocation::ROVING_EXINTERNAL_KEYBOARD
       </device_only>
     <autogen>__KeyToKey__ KeyCode::E, KeyCode::F</autogen>
     <autogen>__KeyToKey__ KeyCode::R, KeyCode::P</autogen>
